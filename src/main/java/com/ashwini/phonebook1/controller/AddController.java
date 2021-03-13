@@ -36,7 +36,7 @@ public class AddController {
 			redirect.addFlashAttribute("fail_msg", "Please Try again");
 
 		// model.addAttribute("fail_msg","Please Try again");
-		return "redirect/addContactSuccess";
+		return "redirect:/addContactSuccess";
 		// return "addContact";
 	}
 
